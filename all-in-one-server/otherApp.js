@@ -70,7 +70,7 @@ app.use(
         }
       }
     })
-    .post("/user/login", async (req, res) => {
+    .post("/login", async (req, res) => {
       let { email, password } = req.body.user;
 
       try {
